@@ -1,0 +1,18 @@
+# What is Binary Search
+
+Binary Search is a searching algorithm used in a sorted array 
+by repeatedly dividing the search interval in half and the 
+correct interval to find is decided based on the searched 
+value and the mid value of the interval.
+
+#Properties
+ search done by dividing ana array into two halves.
+ Divide and conquer approch
+
+#Time Complexity: 
+Best Case: O(1)
+Average Case: O(log N)
+Worst Case: O(log N)
+
+Auxiliary Space: O(1), 
+If the recursive call stack is considered then the auxiliary space will be O(logN).
